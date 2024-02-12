@@ -3,7 +3,7 @@ baseURL = "https://rajendrakadam.com/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "Rajendra Kadam"
+title = "Rajendra Kadam Blog"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "DoIt"
@@ -13,7 +13,7 @@ theme = "DoIt"
   version = "0.4.X"
 
   # website title
-  title = "Rajendra Kadam"
+  title = "Rajendra Kadam Blog"
   # site description
   description = "This is my personal blog"
   # site keywords
