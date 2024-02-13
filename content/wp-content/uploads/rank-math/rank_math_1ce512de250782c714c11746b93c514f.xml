@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//64.23.162.152/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>http://64.23.162.152/post-sitemap.xml</loc>
+		<lastmod>2023-01-29T06:51:36+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://64.23.162.152/page-sitemap.xml</loc>
+		<lastmod>2023-04-21T05:17:04+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://64.23.162.152/category-sitemap.xml</loc>
+		<lastmod>2023-01-29T06:51:36+00:00</lastmod>
+	</sitemap>
+</sitemapindex>

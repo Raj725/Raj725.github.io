@@ -3,7 +3,7 @@ baseURL = "https://rajendrakadam.com/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "Rajendra Kadam Blog"
+title = "Rajendra Kadam - Software Engineer, Indie Hacker, Freelancer(Neo4j & Python)"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "DoIt"
@@ -13,9 +13,9 @@ theme = "DoIt"
   version = "0.4.X"
 
   # website title
-  title = "Rajendra Kadam Blog"
+  title = "Rajendra Kadam - Software Engineer, Indie Hacker, Freelancer(Neo4j & Python)"
   # site description
-  description = "This is my personal blog"
+  description = "Software Engineer, Indie Hacker, Freelancer(Neo4j & Python)"
   # site keywords
   keywords = ["Theme", "Hugo"]
   #  site default theme ("light", "dark", "black", "auto")
@@ -28,7 +28,7 @@ theme = "DoIt"
   #  date format
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
+  images = ["rk-logo.webp"]
   #  enable PWA support
   enablePWA = false
   # [Experimental] cache remote images in markdown, more info: https://github.com/HEIGE-PCloud/DoIt/pull/860#issue-1574342372
@@ -102,22 +102,23 @@ theme = "DoIt"
       # title name
       name = "Rajendra Kadam"
       # you can add extra information before the name (HTML format is supported), such as icons
+#      pre = "<img class='logo' loading='lazy' src='rk-logo.webp' >"
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       #  whether to use typeit animation for title name
-      typeit = true
+      typeit = false
 
   # Footer config
   [params.footer]
     enable = true
     #  Custom content (HTML format is supported)
-    custom = ''
+    custom = '<a style="text-align: center;" href="https://www.digitalocean.com/?refcode=ae87d82bd78b&amp;utm_campaign=Referral_Invite&amp;utm_medium=Referral_Program&amp;utm_source=badge"><b>Get $200 Free Credit for 2 Months on Digital Ocean</b></a>'
     #  whether to show Hugo and theme info
     hugo = true
     #  Hosted on (HTML format is supported)
     # <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
-    hostedOn = ''
+    hostedOn = '<a title="Cloudflare Pages" href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreffer">Cloudflare Pages</a>'
     #  whether to show copyright info
     copyright = true
     #  whether to show the author
@@ -127,8 +128,8 @@ theme = "DoIt"
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
-    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
-
+#    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license = ""
   #  Section (all posts) page config
   [params.section]
     # special amount of posts in each section page
@@ -165,13 +166,13 @@ theme = "DoIt"
       # URL of avatar shown in home page
       # Place your avatar file under static or assets directory
       # The filepath is relative to the static or assets directory
-      avatarURL = "/images/profile photo.jpeg"
+      avatarURL = "/images/profile photo.jpg"
       # URL the avatar links to
       avatarLinkURL = ""
       #  title shown in home page (HTML format is supported)
       title = "Rajendra Kadam"
       # subtitle shown in home page
-      subtitle = "This is my personal blog"
+      subtitle = "Software Engineer, Indie Hacker, Freelancer(Neo4j & Python)"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -189,12 +190,15 @@ theme = "DoIt"
 
   # Social config about the author
   [params.social]
-    GitHub = "xxxx"
-    Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Whatsapp = "+919404041811"
+    Email = "raj.725@outlook.com"
+    Linkedin = "raj725"
+    GitHub = "Raj725"
+    Twitter = "Raj__725"
+    Stackoverflow = "6077914/rajendra-kadam"
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -208,7 +212,6 @@ theme = "DoIt"
     Codepen = ""
     FreeCodeCamp = ""
     Bitbucket = ""
-    Stackoverflow = ""
     Weibo = ""
     Odnoklassniki = ""
     VK = ""
@@ -231,7 +234,6 @@ theme = "DoIt"
     Twitch = ""
     Strava = ""
     Skype = ""
-    Whatsapp = ""
     Zhihu = ""
     Douban = ""
     Angellist = ""
@@ -258,8 +260,8 @@ theme = "DoIt"
     Linktree = ""
     QQ = ""
     QQGroup = ""
-    Email = "xxxx@xxxx.com"
     RSS = true #
+
 
   #  Page config
   [params.page]
@@ -683,17 +685,17 @@ theme = "DoIt"
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
+  name = "Rajendra Kadam"
+  email = "raj.725@outlook.com"
   link = ""
-  avatar = ""
+  avatar = "rk-logo.webp"
   gravatarEmail = ""
 
 # Sitemap config
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
-  priority = 0.5
+  priority = 0.9
 
 # Permalinks config
 [Permalinks]
