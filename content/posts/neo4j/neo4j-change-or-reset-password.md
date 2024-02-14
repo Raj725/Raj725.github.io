@@ -1,19 +1,19 @@
 +++
 title = "How to reset or change the Neo4j graph database password"
-draft = false
+authors = ['Rajendra Kadam']
 date= 2022-04-27T18:11:54+00:00
 lastmod = 2024-02-13T22:28:17+05:30
-featuredImage = "/wp-content/uploads/2022/04/Neo4j-password.png"
-authors = ['Rajendra Kadam']
-tags = ['Neo4j', 'Neo4j Password']
-categories = ['Neo4j']
+draft = false
 series = ['Neo4j Basics']
+categories = ['Neo4j']
+tags = ['Neo4j', 'Neo4j Password']
+url = "neo4j/neo4j-change-or-reset-password/"
+featuredImage = "/wp-content/uploads/2022/04/Neo4j-password.png"
 excerpt = 'Have forgotten your Neo4j database password? Don’t worry, I am sharing two ways to reset or change your Neo4j graph database password.'
 summary = 'Have forgotten your Neo4j database password? Don’t worry, I am sharing two ways to reset or change your Neo4j graph database password.'
-
 +++
 
-#### Have forgotten your Neo4j database password? Don’t worry, I am sharing two ways to reset or change your Neo4j graph database password.  {.wp-block-heading}
+**Have forgotten your Neo4j database password? Don’t worry, I am sharing two ways to reset or change your Neo4j graph database password.**
 
 In some cases simply deleting the existing neo4j database or neo4j installation and installing it again may work. But it&#8217;s not an option every time especially when the database already has some data in it. 
 
@@ -29,7 +29,7 @@ If it works then great otherwise you can reset your password using one of the fo
 
 
 
-### Method 1:&nbsp;For Neo4j desktop installation only {.wp-block-heading}
+## Method 1: For Neo4j desktop installation only {.wp-block-heading}
 
 Neo4j desktop has become a very popular option to work with the Neo4j graph database. It provides a beautiful interface and is very easy to install Neo4j and other graph applications. 
 
@@ -47,7 +47,7 @@ Click on the **Details** tab and then the **Reset DBMS password** option, Here y
 
 
 
-## Method 2:&nbsp;Neo4j Server Installation (Zip/Tar) {.wp-block-heading}
+## Method 2: Neo4j Server Installation (Zip/Tar) {.wp-block-heading}
 
 Unfortunately, In some cases, we don&#8217;t have an option to install the Neo4j desktop. We need to install it through a zip file(**Windows**) or a tar file(**Linux/Mac**). 
 

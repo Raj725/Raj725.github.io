@@ -1,17 +1,18 @@
 +++
 title = "What is Cypher Query Language?"
-draft = false
-author = "Rajendra Kadam"
+authors = ['Rajendra Kadam']
 date = 2022-03-30T18:15:42+00:00
 lastmod = 2024-02-13T22:28:17+05:30
-featuredImage = "/wp-content/uploads/2022/03/what-is-cypher-query-language.jpg"
-authors = ['Rajendra Kadam']
-tags = ['Neo4j','Cypher', 'Cypher Query Language']
+draft = false
+series = ['Neo4j Basics', 'Cypher query language']
 categories = ['Neo4j']
-series = ['Neo4j Basics']
+tags = ['Neo4j','Cypher']
+url = "neo4j/what-is-cypher-query-language/"
+featuredImage = "/wp-content/uploads/2022/03/what-is-cypher-query-language.jpg"
 excerpt = 'Cypher Query Language is Neo4j’s graph query language. It allows users to perform various CRUD operations(create, read, update, and delete) on the graph databases.'
 summary = "Cypher Query Language is Neo4j’s graph query language. It allows users to perform various CRUD operations(create, read, update, and delete) on the graph databases."
 +++
+
 
 ## What is Cypher Query Language?
 
@@ -28,7 +29,7 @@ Cypher’s syntax provides an easy way to find patterns of nodes and relationshi
 
 Here is an example of a Cypher query that retrieves all nodes in a graph:
 
-```Cypher
+```SQL
 MATCH (n)
 RETURN n
 ```
@@ -37,7 +38,7 @@ In Cypher, a graph is made up of nodes and relationships. Nodes represent entiti
 
 Cypher uses the MATCH clause to specify patterns in the graph that we want to retrieve or modify. For example, the following query retrieves all nodes with the label “Person” that have a relationship with a node with the label “Movie“:
 
-```Cypher
+```SQL
 MATCH (p:Person)-[r]->(m:Movie)
 RETURN p, r, m
 ```
@@ -46,14 +47,14 @@ The RETURN clause specifies which nodes and relationships we want to return as p
 
 Cypher also provides a variety of built-in functions and operators that can be used to manipulate and transform data. For example, the following query uses the TO_UPPER function to return the names of all nodes with the label “Person” in uppercase:
 
-```Cypher
+```SQL
 MATCH (p:Person)
 RETURN TO_UPPER(p.name)
 ```
 
 Cypher also supports creating and deleting nodes and relationships, as well as modifying the properties of nodes and relationships. For example, the following query creates a new node with the label “Person” and the property “name” set to “Alice”:
 
-```Cypher
+```SQL
 CREATE (p:Person {name: 'Alice'})
 RETURN p
 ```
@@ -80,7 +81,7 @@ Many projects use the [Cypher query language](https://www.opencypher.org/project
 These are just a few examples of databases that support Cypher. There are many others as well, and the list is constantly growing as more and more organizations adopt graph databases and Cypher for a variety of applications.
 
 
-## **What are some Common clauses and expressions used in Cypher**?
+## What are some Common clauses and expressions used in Cypher?
 
 Cypher queries are composed of clauses and expressions, which are used to specify patterns in the graph, transform and manipulate data, and return results. Here are some examples of common clauses and expressions used in Cypher:
 
@@ -94,7 +95,7 @@ Cypher queries are composed of clauses and expressions, which are used to specif
 Cypher also provides a wide range of built-in functions and operators that can be used to manipulate and transform data. For example, we can use the **`TO_UPPER`** function to convert strings to uppercase, or the **`AVG`** function to calculate the average of a set of numbers.
 
 
-## **How to Learn Cypher Query Language?**
+## How to Learn Cypher Query Language?
 
 The best way to learn anything is to start using it.
 
@@ -103,5 +104,3 @@ I would suggest you install any of the above graph databases. I prefer Neo4j bec
 I hope you got the idea about Cypher Query Language. This is an introductory post I will add more Cypher-related posts here.
 
 Your feedback and suggestions for the future are much appreciated.
-
-## Posts related to Cypher:
