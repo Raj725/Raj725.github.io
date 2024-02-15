@@ -280,7 +280,7 @@ theme = "DoIt"
     #  whether to enable the fontawesome extended syntax
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
-    linkToMarkdown = true
+    linkToMarkdown = false
     #  configure the link to the source file of the post
     linkToSource = false
     # "https://github.com/user/repo/blob/main/{path}"
@@ -314,7 +314,7 @@ theme = "DoIt"
       # whether to enable the table of the contents
       enable = true
       #  whether to keep the static table of the contents in front of the post
-      keepStatic = true
+      keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
     #  KaTeX mathematical formulas
@@ -365,25 +365,25 @@ theme = "DoIt"
       Whatsapp = true
       Pinterest = false
       Tumblr = false
-      HackerNews = false
+      HackerNews = true
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Digg = false
       Stumbleupon = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Renren = false
-      Myspace = true
+      Myspace = false
       Blogger = true
       Baidu = false
       Odnoklassniki = false
       Evernote = true
-      Skype = false
+      Skype = true
       Trello = false
       Mix = false
       Mastodon = false
@@ -405,10 +405,10 @@ theme = "DoIt"
       [params.page.comment.gitalk]
         #
         enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
+        owner = "Raj725"
+        repo = "Raj725.github.io"
+        clientId = "58a139fd6de838a0bed8"
+        clientSecret = "GITHUB_CLIENT_SECRET"
       # Valine comment config
       [params.page.comment.valine]
         enable = false
@@ -469,11 +469,11 @@ theme = "DoIt"
         enable = false
       #  Utterances comment config
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "Raj725/Raj725.github.io"
         issueTerm = "pathname"
-        label = ""
+        label = "Comments"
         lightTheme = "github-light"
         darkTheme = "github-dark"
       #  Twikoo comment config

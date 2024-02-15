@@ -7,7 +7,7 @@ draft = false
 series = ['Neo4j Basics', 'Cypher query language']
 categories = ['Neo4j']
 tags = ['Neo4j','Cypher']
-url = "neo4j/what-is-cypher-query-language/"
+url = "/neo4j/what-is-cypher-query-language/"
 featuredImage = "/wp-content/uploads/2022/03/what-is-cypher-query-language.jpg"
 excerpt = 'Cypher Query Language is Neo4j’s graph query language. It allows users to perform various CRUD operations(create, read, update, and delete) on the graph databases.'
 summary = "Cypher Query Language is Neo4j’s graph query language. It allows users to perform various CRUD operations(create, read, update, and delete) on the graph databases."
@@ -85,12 +85,12 @@ These are just a few examples of databases that support Cypher. There are many o
 
 Cypher queries are composed of clauses and expressions, which are used to specify patterns in the graph, transform and manipulate data, and return results. Here are some examples of common clauses and expressions used in Cypher:
 
-* MATCH: Specifies patterns in the graph that we want to retrieve or modify.
-* WHERE: Filters the results of a query based on certain conditions.
-* RETURN: Specifies which nodes and relationships we want to return as part of the query results.
-* CREATE: Creates new nodes and relationships in the graph.
-* DELETE: Deletes nodes and relationships from the graph.
-* SET: Modifies the properties of nodes and relationships.
+* `MATCH`: Specifies patterns in the graph that we want to retrieve or modify.
+* `WHERE`: Filters the results of a query based on certain conditions.
+* `RETURN`: Specifies which nodes and relationships we want to return as part of the query results.
+* `CREATE`: Creates new nodes and relationships in the graph.
+* `DELETE`: Deletes nodes and relationships from the graph.
+* `SET`: Modifies the properties of nodes and relationships.
 
 Cypher also provides a wide range of built-in functions and operators that can be used to manipulate and transform data. For example, we can use the **`TO_UPPER`** function to convert strings to uppercase, or the **`AVG`** function to calculate the average of a set of numbers.
 

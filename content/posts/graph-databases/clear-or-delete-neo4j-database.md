@@ -24,7 +24,7 @@ The **REMOVE** clause is used to remove properties from nodes or relationships. 
 
 There are 2 ways to remove the property from a node. You can either use a REMOVE clause or a SET clause. Using SET, You can set the property value as null and it will remove the property because Neo4j doesn’t allow storing null properties. Storing null is equivalent to removing it.
 
-![](http://64.23.162.152/wp-content/uploads/2022/07/Screenshot-2022-07-05-at-6.19.35-PM-1024x740.png)
+![](/wp-content/uploads/2022/07/Screenshot-2022-07-05-at-6.19.35-PM-1024x740.png)
 Screenshot: Remove Node Properties
 
 **1. Remove node property using REMOVE Clause**
@@ -66,7 +66,7 @@ REMOVE n:Product
 
 ## Neo4j Delete Clause
 
-The `<strong>DELETE</strong>` is used to delete nodes, relationships, or paths.
+The `DELETE` is used to delete nodes, relationships, or paths.
 
 #### Delete Relationships
 
@@ -111,7 +111,7 @@ CALL {
 } IN TRANSACTIONS OF 100000 ROWS
 ```
 
-![](http://64.23.162.152/wp-content/uploads/2022/07/Screenshot-2022-07-05-at-7.30.11-PM.png)
+![](/wp-content/uploads/2022/07/Screenshot-2022-07-05-at-7.30.11-PM.png)
 Delete Neo4j data with auto committing Transactions
 
 ##### References:

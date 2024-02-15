@@ -7,7 +7,7 @@ draft = false
 series = ['Neo4j Optimization']
 categories = ['Neo4j']
 tags = ['Neo4j', 'Cypher']
-url = "neo4j/tips-for-optimizing-neo4j-queries/"
+url = "/neo4j/tips-for-optimizing-neo4j-queries/"
 featuredImage = "/wp-content/uploads/2023/01/Optimizing-Neo4j-Queries.jpg"
 excerpt = "To get the most out of Neo4j, it's important to understand how to optimize your queries. In this blog post, we'll share some tips on how to improve the performance of your Neo4j queries and make the most of your graph data."
 summary = "To get the most out of Neo4j, it's important to understand how to optimize your queries. In this blog post, we'll share some tips on how to improve the performance of your Neo4j queries and make the most of your graph data."
@@ -51,7 +51,7 @@ In this blog post, we’ll share some tips on how to improve the performance of 
 * Neo4j has a built-in query profiler that can be used to analyze the performance of your queries.
 * The profiler provides detailed information about the execution time of each query, including the number of nodes and relationships scanned, the number of rows returned, and the number of disk I/Os performed.
 * Use this information to identify and fix performance bottlenecks in your queries.
-* To use a profiler add the ==PROFILE== keyword before your query and run it.
+* To use a profiler add the `PROFILE` keyword before your query and run it.
 
 ## 7. Minimize the number of relationships and nodes scanned
 
@@ -61,7 +61,7 @@ In this blog post, we’ll share some tips on how to improve the performance of 
 ## 8. Use conditional statements wisely
 
 * Use conditional statements in your queries carefully, as they can add significant overhead to your queries.
-* Try to use Cypher’s built-in filtering and sorting functions instead of using the WHERE clause.
+* Try to use Cypher’s built-in filtering and sorting functions instead of using the `WHERE` clause.
 
 ## 9. Use Cypher’s built-in aggregation functions
 
@@ -83,8 +83,9 @@ In conclusion, following these tips will help you optimize your Neo4j queries an
 
 The best approach is to profile your queries and analyze the results in order to optimize the specific case you are working on.
 
-Further steps: [Read Neo4j documentation for query tuning](https://neo4j.com/docs/cypher-manual/current/query-tuning/).
+### Further steps
+[Read Neo4j documentation for query tuning](https://neo4j.com/docs/cypher-manual/current/query-tuning/).
 
 I hope these tips help you in optimizing neo4j queries.
 
-You can also **[hire me on Upwork](https://www.upwork.com/freelancers/~01d12a5ae08d74ae79)** if you need any other help with Neo4j.
+If you need any help with Neo4j, you can also **[hire me on Upwork](https://www.upwork.com/freelancers/~01d12a5ae08d74ae79)**.

@@ -35,7 +35,7 @@ Cypher and Gremlin are both query languages that are used to interact with graph
 
 One key difference between Cypher and Gremlin is the way they handle graph traversals.
 
-In Cypher, graph traversals are expressed using patterns and clauses, such as `<strong>MATCH</strong>` and `<strong>WHERE</strong>`, which specify the nodes and relationships that we want to retrieve or modify.
+In Cypher, graph traversals are expressed using patterns and clauses, such as `MATCH` and `WHERE`, which specify the nodes and relationships that we want to retrieve or modify.
 
 In Gremlin, graph traversals are expressed using a series of steps that specify the paths we want to follow through the graph.
 
