@@ -8,6 +8,31 @@ title = "Rajendra Kadam - Software Engineer, Indie Hacker, Freelancer(Neo4j & Py
 # Change the default theme to be use when building the site with Hugo
 theme = "DoIt"
 
+[[menu.main]]
+  name = "Home"
+  identifier = "home"
+  url = "/"
+  weight = 1
+  pre = "🏠"
+  post = ""
+
+[[menu.main]]
+  name = "About Me"
+  url = "/about/"
+  identifier = "about"
+  weight = 2
+  pre = "🧑‍💼"
+  post = ""
+
+#[[menu.main]]
+#  name = "Contact"
+#  identifier = "contact"
+#  url = "/contact/"
+#  weight = 3
+#  pre = "🧑‍💼"
+#  post = ""
+
+
 [params]
   # DoIt theme version
   version = "0.4.X"
@@ -103,7 +128,7 @@ theme = "DoIt"
       name = "Rajendra Kadam"
       # you can add extra information before the name (HTML format is supported), such as icons
 #      pre = "<img class='logo' loading='lazy' src='rk-logo.webp' >"
-      pre = ""
+      pre = "👨‍💻"
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       #  whether to use typeit animation for title name

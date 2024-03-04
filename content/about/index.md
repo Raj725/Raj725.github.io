@@ -22,13 +22,17 @@ summary = "I am Rajendra Kadam, a Neo4j Specialist. I have strong experience wit
 >
 > Thanks for visiting my personal website 😄.
 >
-> My name is Rajendra Kadam, and I am a Neo4j Specialist and a Full Stack Python Developer.
+> My name is Rajendra Kadam.
 >
-> I have strong experience with Neo4j in creating Schema/Data models, creating and building Graph databases, Visualization with Bloom, and Writing Cypher Queries for Neo4j.
+> I'm a Neo4j Certified Professional and experienced software engineer with a passion for leveraging graph databases to solve complex problems.
 >
-> I also have strong experience in Web apps, Rest APIs, Scripts, Web Scraping, and Microservices development using Python(Flask, Django), Java(Spring Boot), SQL, and NoSQL Databases.
+> With 7+ years of experience in the computer software industry, I'm proficient in Neo4j, Cypher Query, Neo4j Bloom, Python, Java, Data Visualization, GraphQL, and JavaScript.
 >
-> I like to work on Python and Neo4j Graph Database Projects.
+> I'm well-versed in data modeling and writing Cypher queries, and I have a deep understanding of the Neo4j graph database and its query language. Additionally, I'm experienced in developing GraphQL APIs for efficient data access and visualization.
+>
+> I'm a strong engineering professional with a B.Tech in Computer Engineering from the College of Engineering Pune.
+>
+> If you're looking for a software engineer with expertise in graph databases and a passion for delivering impactful solutions, let's connect!
 
 I provide consultation and development services through Upwork.
 
